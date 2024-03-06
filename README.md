@@ -1,54 +1,84 @@
-<body>
 
-# Hands-on Generative Artificial Intelligence
+# Course Overview
 
-## COURSE OVERVIEW
+The Generative AI Prompt Engineering training course is designed to demonstrate the concepts of Large Language Models (LLMs) and Natural Language Processing (NLP), and provide students with hands-on experience in leveraging these technologies as a part of their software development lifecycle.
 
-Hands-on Generative AI is an interactive three-day training course that offers a comprehensive learning experience for developers, data engineers/analysts, and tech product owners. The course is specifically designed to equip participants with the essential skills and in-depth knowledge required to harness the power of generative AI effectively. By combining theory with extensive hands-on practice, this course ensures that participants gain a deep understanding of generative AI concepts and the ability to apply them to various domains. Students will learn how to generate realistic and novel outputs, such as images, music, text, and more, using state-of-the-art algorithms and frameworks.
+The course begins with an overview of working with LLMs and NLP with OpenAI. Students learn to craft and refine effective prompts to create solutions to specific software engineering scenarios. Next, students learn to implement NLP techniques into their own applications to build custom chatbots. The course concludes with best practices for developing applications with the support of generative AI.
 
-**COURSE DURATION**: Three days
+## Course Duration: 4 days
 
-**PREREQUISITES**:
-- Python Programming: Participants should have a solid understanding of Python programming, including knowledge of data structures, control flow, functions, and libraries commonly used in data analysis and machine learning, such as NumPy, Pandas, and scikit-learn.
-- Data Analysis and Machine Learning: Familiarity with data analysis concepts, exploratory data analysis (EDA), and machine learning algorithms is essential.
-- Deep Learning Basics: Basic knowledge of deep learning concepts is recommended.
+## Prerequisites
 
-## COURSE CALENDAR
+This course assumes that students have prior experience in python programming and understanding of data science and machine learning fundamentals.
 
-| Day | Outline                                         | Details                                                |
-|-----|-------------------------------------------------|--------------------------------------------------------|
-| 1   | Introduction to Fundamentals                   | - Deep Learning Primer                                 |
-|     |                                                 | - Recap of essential deep learning concepts            |
-|     |                                                 | - Review of neural networks and their architectures   |
-|     |                                                 | - Explanation of optimization techniques (e.g., gradient descent, backpropagation) |
-|     |                                                 | - Overview of Generative AI                            |
-|     |                                                 | - Introduction to generative AI and its applications   |
-|     |                                                 | - Understanding the basics of generative models and their importance   |
-|     |                                                 | - Types of Generative Models                          |
-|     |                                                 |   - Autoencoders                                      |
-|     |                                                 |   - Variational Autoencoders (VAEs)                   |
-|     |                                                 |   - Generative Adversarial Networks (GANs)           |
-| 2   | Generative Models                               | - Building Autoencoders                               |
-|     |                                                 | - Recap of Autoencoders                                |
-|     |                                                 | - Implementing an Autoencoder using TensorFlow/Keras or PyTorch |
-|     |                                                 | - Training and Evaluating the Model                   |
-|     |                                                 | - Introduction to GANs                                 |
-|     |                                                 | - Recap of Generative Adversarial Networks (GANs)     |
-|     |                                                 | - Understanding GAN Architecture: Generator and Discriminator |
-|     |                                                 | - Implementing a Basic GAN for Generating Images       |
-|     |                                                 | - Training and Evaluating the GAN                     |
-| 3   | Practical Applications                         | - Overview of NLP: Understanding Language as Data      |
-|     |                                                 | - Language Generation Tasks                            |
-|     |                                                 |   - Text Completion                                   |
-|     |                                                 |   - Text Generation                                   |
-|     |                                                 |   - Dialogue Systems                                  |
-|     |                                                 |   - Story Generation                                  |
-|     |                                                 | - Pre-trained Language Models                        |
-|     |                                                 |   - Pre-trained Language Models (e.g., GPT, BERT)     |
-|     |                                                 |   - Fine-tuning for Language Generation Tasks         |
-|     |                                                 |   - Using Hugging Face's Transformers Library for Fine-tuning |
-|     |                                                 |   - Adapting Pre-trained Models for Specific NLP Tasks |
-|     |                                                 | - Capstone Project                                    |
+## This Course Does Include
 
-</body>
-</html>
+- Comprehensive Introduction to LLMs and NLP
+- Practical Training on Prompt Engineering Techniques
+- Hands-On Experience with OpenAI APIs
+- Development of an AI-Powered Chatbot using LLMs
+- Understanding of Ethical Considerations in AI
+- Introduction to Fine-Tuning Techniques
+- Knowledge of Current and Future AI Trends
+
+## Productivity Objectives
+
+Upon completion of this course, you should be able to:
+
+- Understand the Fundamentals of LLMs and NLP
+- Master Prompt Engineering Techniques
+- Develop Hands-on Skills with OpenAI's APIs
+- Implement Advanced NLP Applications
+- Distinguish Between Standard Prompt Engineering and Fine-Tuning
+- Address Ethical Considerations in AI
+
+## Course Outline
+
+### Day 1: Introduction to LLMs, NLP with OpenAI, and Fine-Tuning
+
+- Introduction to Generative AI and the Basics of NLP
+- Overview of Large Language Models: History, Evolution, and Landscape
+- Brief Introduction to Fine-Tuning: Concept and How It Differs from Standard Prompt Engineering
+- Deep Dive into OpenAI's LLMs: GPT family
+- Setting Up the Environment for Using OpenAI APIs
+- Basic Prompt Engineering: Principles, Practices, and Examples
+
+### Day 2: Advanced Prompt Engineering Techniques
+
+- Prompting Techniques: Zero-shot, Few-shot, Chain-of-Thought
+- Hands-On Exercises: Crafting Complex Prompts
+- Introduction to Prompt Optimization Strategies
+- Exploring Advanced Concepts: Self-Consistency, Retrieval Augmented Generation
+- Implementing Advanced Prompting Techniques in Real-World Scenarios
+- Developing Prompts for Specific Use Cases
+
+#### Project Kickoff
+
+- Introduction to Mini-Project: Developing an AI-Powered Code Assistant Tool
+- Initial Setup and API Integration
+- Applying Advanced Prompting Techniques to the Code Assistant Tool
+- Enhancing Interaction and Response Accuracy
+
+### Day 3: Practical Applications and Case Studies
+
+- Generating Data and Synthetic Datasets
+- Case Study: Graduate Job Classification
+- Workshop: Tackling Generated Datasets Diversity
+- Code Generation and Function Calling in Software Development
+
+#### Project Enhancement
+
+- Integrating Code Generation and Function Calling Features
+- Improving the Tool's Capability with Synthetic Datasets
+
+### Day 4: Software Development Focus, Ethical Considerations
+
+- Application-Specific Prompt Engineering: Code, SQL Queries, Information Extraction
+- Developing a Small-scale Chatbot
+- Overcoming Common Challenges in Software Development
+- Addressing Risks and Misuses: Factuality, Biases, and Ethical Considerations
+- Adversarial Prompting: Understanding and Mitigation
+- Brief Overview of Fine-Tuning Techniques and Their Benefits
+
+#### Project Finalization and Showcase
+- Implementing Ethical Considerations and Bias Checks

@@ -13,9 +13,6 @@
 #### Prompt:
 `[Exact prompt text]`
 
-#### Expected Libraries/Frameworks:
-`[e.g., Pandas, Matplotlib]`
-
 #### Parameters:
 `Temperature, Max Tokens, etc.`
 
